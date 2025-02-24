@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-custom-blocks-instructors-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+
+	div figure {
+		height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		overflow: hidden;
+
+		img {
+			margin-top: -50px;
+			margin-left: -50px;
+		}
+	}
+}
