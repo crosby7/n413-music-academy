@@ -18,6 +18,14 @@
       "background": "var:preset|color|background",
       "text": "var:preset|color|text"
     },
+    "spacing": {
+      "padding": {
+        "top": "10px",
+        "right": "10px",
+        "bottom": "10px",
+        "left": "10px"
+      }
+    },
     "elements": {},
     "blocks": {}
   }

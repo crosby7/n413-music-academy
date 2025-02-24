@@ -6,3 +6,23 @@ Version: 0.1
 Description: Collins Music Academy is a WP block theme built for the Collins Music Academy.
 
 */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}

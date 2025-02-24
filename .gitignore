@@ -14,3 +14,9 @@
 
 # ignore twentytwenty themes
 /wp-content/themes/twenty**
+
+# Explicitly ignore node_modules (custom blocks have them)
+node_modules
+
+# ignore build folder for custom blocks
+wp-content/themes/**/build
