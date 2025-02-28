@@ -6,3 +6,10 @@ Description: Example Block Theme for Collins
 Version: 1.0
 
 */
+
+.wp-block-button {
+	.wp-block-button__link {
+		background-color: #3f6d86;
+		color: #ffffff;
+	}
+}

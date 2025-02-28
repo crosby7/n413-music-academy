@@ -21,5 +21,4 @@
  */
 
 /* eslint-disable no-console */
-console.log( 'Hello World! (from custom-blocks-main-nav block)' );
 /* eslint-enable no-console */

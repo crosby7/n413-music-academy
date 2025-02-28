@@ -6,10 +6,10 @@
 <nav <?php echo get_block_wrapper_attributes(); ?>>
     <ul>
         <li>
-            <a href="#">Music Academy</a>
+            <a href="/">Music Academy</a>
         </li>
         <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
             <a href="#">Instructors</a>

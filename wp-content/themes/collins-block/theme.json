@@ -8,17 +8,17 @@
 				{
 					"name": "Primary",
 					"slug": "primary",
-					"color": "#4d361b"
+					"color": "#0b294b"
 				},
 				{
 					"name": "Secondary",
 					"slug": "secondary",
-					"color": "#cda75f"
+					"color": "#3f6d86"
 				},
 				{
 					"name": "Background",
 					"slug": "background",
-					"color": "#f0f0f4"
+					"color": "#d6dcdc"
 				},
 				{
 					"name": "Text",
