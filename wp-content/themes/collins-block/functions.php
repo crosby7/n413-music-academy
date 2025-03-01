@@ -5,6 +5,7 @@ function bma_custom_blocks_init()
     register_block_type(__DIR__ . "/build/main-nav");
     register_block_type(__DIR__ . "/build/instructors-list");
     register_block_type(__DIR__ . "/build/lessons-list");
+    register_block_type(__DIR__ . "/build/lesson-details");
 }
 
 function wp_enqueue_styles() {
