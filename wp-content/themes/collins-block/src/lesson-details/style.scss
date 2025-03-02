@@ -7,4 +7,13 @@
 
 .wp-block-custom-blocks-lesson-details {
 	display: flex;
+	justify-content: space-between;
+
+	.video-container {
+		width: 600px;
+	}
+
+	p {
+		max-width: 400px;
+	}
 }

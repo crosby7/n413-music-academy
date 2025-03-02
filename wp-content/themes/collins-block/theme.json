@@ -65,27 +65,6 @@
 			}
 		},
 		"elements": {
-			"h1": {
-				"spacing": {
-					"margin": {
-						"left": "10px"
-					}
-				}
-			},
-			"h2": {
-				"spacing": {
-					"margin": {
-						"left": "10px"
-					}
-				}
-			},
-			"h3": {
-				"spacing": {
-					"margin": {
-						"left": "10px"
-					}
-				}
-			},
 			"heading": {
 				"color": {
 					"text": "var:preset|color|primary"
