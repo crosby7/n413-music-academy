@@ -64,3 +64,17 @@ If copy/pastings:
   - `"textdomain"`
 - Rename the style.scss
 - Update functions.php to register an additional block type
+
+#### Embeds in Custom Blocks
+
+When trying to embed in a custom block, make sure to add an explicit `<iframe>` to hold the video player.
+
+```HTML
+<div class="video-container">
+	<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+		<div class="wp-block-embed__wrapper">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/JRnDYB28bL8?si=2kyPU9jzmyU-NOn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+	</figure>
+</div>
+```
