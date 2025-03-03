@@ -1,8 +1,8 @@
-# Collins Music Academy Assignment
+# Collins Music Academy Assignment - Round 2
 
 ## Summary
 
-For this project, I created a WordPress Block Theme built around "client" specifications. The site has 4 template pages:
+For this redo of the Collins project, I created a WordPress Block Theme built around "client" specifications. The site has 4 template pages:
 
 - Homepage
   - Brief intro to Academy
@@ -22,11 +22,7 @@ For this project, I created a WordPress Block Theme built around "client" specif
 
 ## Struggles
 
-I couldn't manage to get block theme working for a considerable amount of time. By the time I had exhausted online resources, it was too late to switch to classic theme, so the site might be significantly under-developed in places.
-
-I also struggled with custom css:
-
-While developing, I was writing css to `styles.css`. When I would view my templates from the admin dashboard (Appearance/Themes/Collins Music Academy - Live Preview), my styles were not applied. I could apply themes using `theme.json`, but I couldn't understand or find out how to style custom classes in `theme.json`. As a result, I ended up frantically using the WordPress editor's 'Additional CSS' tool and writing my custom class CSS there. Again, probably not my best option.
+Styling is still a confusing part for me. The best way to style, it seems, is in `theme.json`, but I don't know much of what I can do there and I don't know how to style `"blocks"` in the file (e.g. `"core/block"` or `"core/embed"`). I was able to cobble together some styles between custom elements SCSS, `style.css` (which doesn't reflect in the editor?) and what I could put together in `theme.json`, but I would love a revisit of `theme.json` for a lecture or even just a Canvas page
 
 ## Weekly Recap
 
@@ -54,3 +50,17 @@ This command will create a few files:
 Also, we had to update `functions.php` to initialize the block type.
 
 Once the block is registered and the `npm start` command is run, the block should be available for use in VSCode as well as the WP Editor.
+
+#### Duplicating Blocks
+
+We can duplicate blocks by copy/pasting an existing custom block (or reissuing the command to create one).
+
+If copy/pastings:
+
+- Rename the file folder
+- Rename the `block.json`
+  - `"name"`
+  - `"title"`
+  - `"textdomain"`
+- Rename the style.scss
+- Update functions.php to register an additional block type
