@@ -1,5 +1,9 @@
 # Collins Music Academy Assignment - Round 2
 
+---
+This repo was used for Round 1 as well. The revised theme is "collins-block".
+---
+
 ## Summary
 
 For this redo of the Collins project, I created a WordPress Block Theme built around "client" specifications. The site has 4 template pages:
